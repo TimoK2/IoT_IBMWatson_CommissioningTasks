@@ -9,3 +9,4 @@ The files in this repo:
 
 ...flow.txt = code files for NodeRED flows.
 
+For a short overview please have a look on document IoT_InternetOfThings_SystemOverview_EN_v1.pdf
