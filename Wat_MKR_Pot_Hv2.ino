@@ -13,7 +13,7 @@ Timo Karppinen 9.2.2018
 #include <SPI.h>
 #include <WiFi101.h>
 #include <WiFiSSLClient.h>
-#include <MQTTClient.h>
+#include <MQTTClient.h>   // The Gaehwiler mqtt library
 
 // WLAN 
 char ssid[] = "HAMKvisitor"; //  your network SSID (name)
@@ -29,7 +29,7 @@ char *client_id = "d:yyyyyy:A_MKR1000:xxxxxxxxxxxx";
 char *user_id = "use-token-auth";   // telling that authentication will be done with token
 char *authToken = "zzzzzzzzzzzzzzzzz"; // Your IBM Watson Authentication Token
 
-//char *ibm_hostname = "<your-org-id.messaging.internetofthings.ibmcloud.com>"ù;
+//char *ibm_hostname = "<your-org-id.messaging.internetofthings.ibmcloud.com>"¬ù;
 char *ibm_hostname = "yyyyyy.messaging.internetofthings.ibmcloud.com";
 
 const int ainputPin = A1;
