@@ -27,7 +27,7 @@ Timo Karppinen 25.1.2018
 #include <SPI.h>
 #include <WiFi101.h>
 #include <WiFiSSLClient.h>
-#include <MQTTClient.h>
+#include <MQTTClient.h>  // The Gaehwiler mqtt client
 
 // WLAN 
 //char ssid[] = "Moto_Z2_TK"; //  your network SSID (name)
