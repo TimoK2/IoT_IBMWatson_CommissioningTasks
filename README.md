@@ -5,7 +5,7 @@ The files in this repo:
 
 ... .pdf = instructions for commissioning.
 
-... .txt = code files for example for Arduino MKR1000 processor board + Digilent pmod sensor modules.
+... .ino = code files for Arduino MKR1000 processor board + Digilent pmod sensor modules.
 
 ...flow.txt = code files for NodeRED flows.
 
