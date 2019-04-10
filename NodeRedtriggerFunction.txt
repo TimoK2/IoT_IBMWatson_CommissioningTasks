@@ -1,0 +1,20 @@
+var fArea = msg.payload.msgArea;
+var fTemp = msg.payload.msgTemp;
+var fHum = msg.payload.msgHum;
+var trigger = [false,false];
+//var msg = [{payload:{""}}, {payload:{""}}];
+var msgOut =["",""];
+
+if (fArea == "Helsinki"&&fTemp < 18)
+{
+    trigger[0] = true;
+}
+msgOut[0] = {payload:{"trcommand":trigger[0]}};
+
+if (fArea == "Tampere"&&fTemp < 18)
+{
+    trigger[1] = true;
+}
+msgOut[1] = {payload:{"trcommand":trigger[1]}};
+
+return msgOut;
